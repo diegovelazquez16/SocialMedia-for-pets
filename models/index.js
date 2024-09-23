@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize');
 const config = require('../config/config.json');
 const sequelize = new Sequelize(
-  config.development.database,
-  config.development.username,
-  config.development.password,
+'social_media_pets', 
+  'root',
+  'v3lazqu3z', 
   {
     host: config.development.host,
     dialect: config.development.dialect,
